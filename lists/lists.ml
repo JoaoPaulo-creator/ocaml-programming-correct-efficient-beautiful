@@ -23,3 +23,12 @@ Error: This expression has type float but an expression was expected of type
 - : int list = [1; 2; 3]
 
 (* Listas em ocaml sao imutaveis e sao single linked lists *)
+
+
+
+CONS( :: ) vs APPEND ( @ )
+const adiciona um elemento no head da lista
+o tempo eh constante O(1)
+
+append vai combinar duas listas
+o tempo eh linear   

@@ -72,3 +72,18 @@ let rec append l1 l2 =
   match l1 with
   | [] -> l2
   | h :: t -> h :: append t l2;;
+
+
+(* em funcoes com varios argumentos, o pattern matching pode ser escrito de uma forma um pouco diferente *)
+let fn x y z = 
+  match z with 
+  | alguma coisa -> e1
+  | alguma coisa -> e2
+
+(* pode ser escrito dessa forma *)
+
+let fn x y = function  
+  | alguma coisa -> e1
+  | alguma coisa -> e2
+
+
